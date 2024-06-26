@@ -1,0 +1,6 @@
+# ninja log v5
+4	411	7411100655911278	CMakeFiles/AlgorithmExercise.dir/ComputerTest/01SquareFactor.cpp.obj	dd8d5ce1cb4d88d2
+1	471	7411081738194146	CMakeFiles/AlgorithmExercise.dir/main.cpp.obj	6fc8e5c429ff75e2
+0	241	7411152926872242	build.ninja	76da21d42766b2c
+3	162	7411081971447114	AlgorithmExercise.exe	e448346f8f255e8
+411	559	7411100657366881	bin/AlgorithmExercise.exe	b529b6093be10bd6
