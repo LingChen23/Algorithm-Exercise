@@ -1,6 +1,23 @@
 # ninja log v5
 4	411	7411100655911278	CMakeFiles/AlgorithmExercise.dir/ComputerTest/01SquareFactor.cpp.obj	dd8d5ce1cb4d88d2
 1	471	7411081738194146	CMakeFiles/AlgorithmExercise.dir/main.cpp.obj	6fc8e5c429ff75e2
-0	241	7411152926872242	build.ninja	76da21d42766b2c
-3	162	7411081971447114	AlgorithmExercise.exe	e448346f8f255e8
+0	241	7411986565680910	build.ninja	76da21d42766b2c
 411	559	7411100657366881	bin/AlgorithmExercise.exe	b529b6093be10bd6
+3	162	7411081971447114	AlgorithmExercise.exe	e448346f8f255e8
+4	461	7411986399847026	CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj	dc70d4b98f35aed5
+1	1718	7411986565680910	build.ninja	76da21d42766b2c
+3	153	7411986568226130	bin/AlgorithmExercise.exe	9a58778bed9dbbe9
+5	417	7411987450039483	CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj	dc70d4b98f35aed5
+418	565	7411987451452474	bin/AlgorithmExercise.exe	9a58778bed9dbbe9
+3	391	7411987935288654	CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj	dc70d4b98f35aed5
+392	544	7411987936763269	bin/AlgorithmExercise.exe	9a58778bed9dbbe9
+4	485	7411988767112121	CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj	dc70d4b98f35aed5
+486	716	7411988769361162	bin/AlgorithmExercise.exe	9a58778bed9dbbe9
+4	430	7411989243122570	CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj	dc70d4b98f35aed5
+431	595	7411989244714957	bin/AlgorithmExercise.exe	9a58778bed9dbbe9
+4	415	7411989673217324	CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj	dc70d4b98f35aed5
+416	576	7411989674761800	bin/AlgorithmExercise.exe	9a58778bed9dbbe9
+3	405	7411990177420098	CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj	dc70d4b98f35aed5
+406	555	7411990178879465	bin/AlgorithmExercise.exe	9a58778bed9dbbe9
+3	393	7411990585459749	CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj	dc70d4b98f35aed5
+394	539	7411990586877184	bin/AlgorithmExercise.exe	9a58778bed9dbbe9

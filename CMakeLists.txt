@@ -8,7 +8,7 @@ include_directories(include)
 link_directories(lib/x64)
 
 add_executable(AlgorithmExercise
-        ComputerTest/01SquareFactor.cpp
+
         ComputerTest/02JudgePrime.cpp)
 
 

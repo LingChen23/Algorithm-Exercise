@@ -49,13 +49,6 @@ cmake_ninja_workdir = D$:/Learnning/AlgorithmExercise/cmake-build-debug/
 
 build cmake_object_order_depends_target_AlgorithmExercise: phony || CMakeFiles/AlgorithmExercise.dir
 
-build CMakeFiles/AlgorithmExercise.dir/ComputerTest/01SquareFactor.cpp.obj: CXX_COMPILER__AlgorithmExercise_unscanned_Debug D$:/Learnning/AlgorithmExercise/ComputerTest/01SquareFactor.cpp || cmake_object_order_depends_target_AlgorithmExercise
-  DEP_FILE = CMakeFiles\AlgorithmExercise.dir\ComputerTest\01SquareFactor.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -ID:/Learnning/AlgorithmExercise/include
-  OBJECT_DIR = CMakeFiles\AlgorithmExercise.dir
-  OBJECT_FILE_DIR = CMakeFiles\AlgorithmExercise.dir\ComputerTest
-
 build CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj: CXX_COMPILER__AlgorithmExercise_unscanned_Debug D$:/Learnning/AlgorithmExercise/ComputerTest/02JudgePrime.cpp || cmake_object_order_depends_target_AlgorithmExercise
   DEP_FILE = CMakeFiles\AlgorithmExercise.dir\ComputerTest\02JudgePrime.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
@@ -71,7 +64,7 @@ build CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj: CXX_CO
 #############################################
 # Link the executable bin\AlgorithmExercise.exe
 
-build bin/AlgorithmExercise.exe: CXX_EXECUTABLE_LINKER__AlgorithmExercise_Debug CMakeFiles/AlgorithmExercise.dir/ComputerTest/01SquareFactor.cpp.obj CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj
+build bin/AlgorithmExercise.exe: CXX_EXECUTABLE_LINKER__AlgorithmExercise_Debug CMakeFiles/AlgorithmExercise.dir/ComputerTest/02JudgePrime.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LD:/Learnning/AlgorithmExercise/lib/x64
