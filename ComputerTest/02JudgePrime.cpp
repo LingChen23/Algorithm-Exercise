@@ -4,7 +4,7 @@
 
 /*
  * sqrt(n)的值有问题
- *
+ *  多次使用写函数判断
  * */
 #include <iostream>
 #include <stdio.h>
