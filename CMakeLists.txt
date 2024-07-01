@@ -9,7 +9,7 @@ link_directories(lib/x64)
 
 add_executable(AlgorithmExercise
 
-        ComputerTest/03NumberOfPrime.cpp)
+        ComputerTest/04PrimeNumber.cpp)
 
 
 
