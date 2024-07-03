@@ -22,16 +22,15 @@ int main(){
     int t = a;
     scanf("%d %d",&a,&b);
     for(int i = a; i <= b; i++){
-        if(composite(i)){
-            len++;
-        }else{
+        if(!composite(i)){
             len = 0;
+        }else {
+            len++;
+            if(len > length){
+                length = len;
+                t = i - length;
+            }
         }
-        if(len > length){
-            length = len;
-            t = i - length;
-        }
-
     }
 
     for(int i = 1; i <= length; i++){
