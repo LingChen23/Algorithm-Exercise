@@ -9,7 +9,8 @@ link_directories(lib/x64)
 
 add_executable(AlgorithmExercise
 
-        ComputerTest/05PrimeNumberOnes.cpp)
+
+        ComputerTest/06ConsecutiveCompositeSegments.cpp)
 
 
 
