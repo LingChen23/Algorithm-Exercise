@@ -9,8 +9,7 @@ link_directories(lib/x64)
 
 add_executable(AlgorithmExercise
 
-
-        ComputerTest/06ConsecutiveCompositeSegments.cpp)
+        ComputerTest/07约数的个数.cpp)
 
 
 
