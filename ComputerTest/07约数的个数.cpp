@@ -41,5 +41,6 @@ int main(){
         printf("%d\n", prime(a[i]));
     }
 
+
     return 0;
 }
