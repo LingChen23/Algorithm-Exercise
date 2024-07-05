@@ -9,7 +9,7 @@ link_directories(lib/x64)
 
 add_executable(AlgorithmExercise
 
-        ComputerTest/07约数的个数.cpp)
+        ComputerTest/09PAT计数.cpp)
 
 
 
