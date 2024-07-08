@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/Learnning/AlgorithmExercise/cmake-build-debug/
 
 build cmake_object_order_depends_target_AlgorithmExercise: phony || CMakeFiles/AlgorithmExercise.dir
 
-build CMakeFiles/AlgorithmExercise.dir/ComputerTest/10性感素数.cpp.obj: CXX_COMPILER__AlgorithmExercise_unscanned_Debug D$:/Learnning/AlgorithmExercise/ComputerTest/10性感素数.cpp || cmake_object_order_depends_target_AlgorithmExercise
-  DEP_FILE = CMakeFiles\AlgorithmExercise.dir\ComputerTest\10性感素数.cpp.obj.d
+build CMakeFiles/AlgorithmExercise.dir/ComputerTest/11减法操作.cpp.obj: CXX_COMPILER__AlgorithmExercise_unscanned_Debug D$:/Learnning/AlgorithmExercise/ComputerTest/11减法操作.cpp || cmake_object_order_depends_target_AlgorithmExercise
+  DEP_FILE = CMakeFiles\AlgorithmExercise.dir\ComputerTest\11减法操作.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -ID:/Learnning/AlgorithmExercise/include
   OBJECT_DIR = CMakeFiles\AlgorithmExercise.dir
@@ -64,7 +64,7 @@ build CMakeFiles/AlgorithmExercise.dir/ComputerTest/10性感素数.cpp.obj: CXX_COMP
 #############################################
 # Link the executable bin\AlgorithmExercise.exe
 
-build bin/AlgorithmExercise.exe: CXX_EXECUTABLE_LINKER__AlgorithmExercise_Debug CMakeFiles/AlgorithmExercise.dir/ComputerTest/10性感素数.cpp.obj
+build bin/AlgorithmExercise.exe: CXX_EXECUTABLE_LINKER__AlgorithmExercise_Debug CMakeFiles/AlgorithmExercise.dir/ComputerTest/11减法操作.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LD:/Learnning/AlgorithmExercise/lib/x64
