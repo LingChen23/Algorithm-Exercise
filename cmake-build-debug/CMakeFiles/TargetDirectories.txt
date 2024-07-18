@@ -1,3 +1,0 @@
-D:/Learnning/AlgorithmExercise/cmake-build-debug/CMakeFiles/AlgorithmExercise.dir
-D:/Learnning/AlgorithmExercise/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Learnning/AlgorithmExercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
