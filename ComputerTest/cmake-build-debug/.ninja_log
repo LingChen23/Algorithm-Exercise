@@ -1,3 +1,4 @@
 # ninja log v5
-1	704	7430138049700454	CMakeFiles/ComputerTest.dir/main.cpp.obj	b7bd6a98a5e39e0d
-708	974	7430138052330553	ComputerTest.exe	a93221d598c66aba
+1	226	7430700688358309	build.ninja	71248bfabd828dc
+1	584	7430700695363640	CMakeFiles/ComputerTest.dir/12不合群数.cpp.obj	f1aef2e10b7bbfea
+598	751	7430700696957196	ComputerTest.exe	60377bda2bf708e7

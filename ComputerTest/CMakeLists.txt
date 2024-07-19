@@ -3,4 +3,5 @@ project(ComputerTest)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ComputerTest main.cpp)
+add_executable(ComputerTest
+        12不合群数.cpp)
