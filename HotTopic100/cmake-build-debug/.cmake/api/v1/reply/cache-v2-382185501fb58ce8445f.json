@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Project/AlgorithmExercise/ComputerTest/cmake-build-debug"
+			"value" : "d:/Project/AlgorithmExercise/HotTopic100/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Project/AlgorithmExercise/ComputerTest/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Project/AlgorithmExercise/HotTopic100/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Project/AlgorithmExercise/ComputerTest"
+			"value" : "D:/Project/AlgorithmExercise/HotTopic100"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/ComputerTest"
+			"value" : "C:/Program Files (x86)/HotTopic100"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLION2~1.4/CLION2~1.4/bin/ninja/win/x64/ninja.exe"
+			"value" : "D:/Clion2023.3.4/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ComputerTest"
+			"value" : "HotTopic100"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1270,7 +1270,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "ComputerTest_BINARY_DIR",
+			"name" : "HotTopic100_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1279,10 +1279,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Project/AlgorithmExercise/ComputerTest/cmake-build-debug"
+			"value" : "D:/Project/AlgorithmExercise/HotTopic100/cmake-build-debug"
 		},
 		{
-			"name" : "ComputerTest_IS_TOP_LEVEL",
+			"name" : "HotTopic100_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1294,7 +1294,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "ComputerTest_SOURCE_DIR",
+			"name" : "HotTopic100_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Project/AlgorithmExercise/ComputerTest"
+			"value" : "D:/Project/AlgorithmExercise/HotTopic100"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

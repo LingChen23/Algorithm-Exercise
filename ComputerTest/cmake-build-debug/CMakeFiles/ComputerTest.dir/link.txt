@@ -1,0 +1,3 @@
+"D:\Clion2023.3.4\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\ComputerTest.dir/objects.a
+D:\CLION2~1.4\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\ComputerTest.dir/objects.a @CMakeFiles\ComputerTest.dir\objects1.rsp
+D:\CLION2~1.4\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\ComputerTest.dir/objects.a -Wl,--no-whole-archive -o ComputerTest.exe -Wl,--out-implib,libComputerTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ComputerTest.dir\linkLibs.rsp
