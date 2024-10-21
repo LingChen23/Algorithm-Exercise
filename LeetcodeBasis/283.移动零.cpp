@@ -10,15 +10,17 @@ using namespace std;
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int slow = 0;
+        // 偏移量 有0偏移量+1
+        //int slow = 0;
+        int offset;
         for(int fast = 0; fast < nums.size(); fast++){
             if(nums[fast] != 0){
-                nums[slow++] = nums[fast];
+                nums[fast - offset] = nums[fast];
+                nums[fast] = 0;
                 //nums[nums.size() - slow - 1] = 0;
+            }else{
+                offset++;
             }
-        }
-        for(int i = slow; i < nums.size(); i++){
-            nums[i] = 0;
         }
     }
 };
