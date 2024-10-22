@@ -53,34 +53,36 @@ namespace solution24{
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
-public:
-    ListNode* swapPairs(ListNode* head) {
-        if(!head || !head->next) return head;
+    class Solution {
+    public:
+        ListNode* swapPairs(ListNode* head) {
+            if(!head || !head->next) return head;
+            ListNode* dummyhead = new ListNode(-1);
+            dummyhead->next = head;
+            ListNode *pre = dummyhead; //虚拟指针
 
-        ListNode* dummyhead(-1);
-        dummyhead->next = head;
-        ListNode *pre = dummyhead;  //虚拟节点
+            ListNode* p = head;
+            ListNode* mark1;
+            ListNode* mark2; //工具指针
 
-        ListNode* p = head;
-        ListNode* mark1;
-        ListNode* mark2;
+            while(p && p->next){
+                //初始化工具指针
+                mark1 = p->next;
+                mark2 = p->next->next;
 
-        while(p && p->next){
-            mark1 = p->next;
-            mark2 = p->next->next;  //定义一些工具节点
+                //pre指向第一个结点
+                p->next->next = p;
+                p->next = mark2;
+                pre->next = mark1;
 
-            p->next->next = p;
-            p->next = mark2;
+                //重置pre和p
+                pre = p;
+                p = mark2;
+            }
 
-            pre->next = mark2;
-            p = mark2;
+            return dummyhead->next;
         }
-
-        return dummyhead.next;
-
-    }
-};
+    };
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
