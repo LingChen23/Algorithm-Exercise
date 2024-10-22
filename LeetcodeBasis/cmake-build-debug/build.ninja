@@ -49,11 +49,11 @@ cmake_ninja_workdir = D$:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-de
 
 build cmake_object_order_depends_target_LeetcodeBasis: phony || CMakeFiles/LeetcodeBasis.dir
 
-build CMakeFiles/LeetcodeBasis.dir/26.删除有序数组中的重复项.cpp.obj: CXX_COMPILER__LeetcodeBasis_unscanned_Debug D$:/Project/AlgorithmExercise/LeetcodeBasis/26.删除有序数组中的重复项.cpp || cmake_object_order_depends_target_LeetcodeBasis
-  DEP_FILE = CMakeFiles\LeetcodeBasis.dir\26.删除有序数组中的重复项.cpp.obj.d
+build CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_24.cpp.obj: CXX_COMPILER__LeetcodeBasis_unscanned_Debug D$:/Project/AlgorithmExercise/LeetcodeBasis/leetcode/editor/cn/leetcode_num_24.cpp || cmake_object_order_depends_target_LeetcodeBasis
+  DEP_FILE = CMakeFiles\LeetcodeBasis.dir\leetcode\editor\cn\leetcode_num_24.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\LeetcodeBasis.dir
-  OBJECT_FILE_DIR = CMakeFiles\LeetcodeBasis.dir
+  OBJECT_FILE_DIR = CMakeFiles\LeetcodeBasis.dir\leetcode\editor\cn
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/LeetcodeBasis.dir/26.删除有序数组中的重复项.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable LeetcodeBasis.exe
 
-build LeetcodeBasis.exe: CXX_EXECUTABLE_LINKER__LeetcodeBasis_Debug CMakeFiles/LeetcodeBasis.dir/26.删除有序数组中的重复项.cpp.obj
+build LeetcodeBasis.exe: CXX_EXECUTABLE_LINKER__LeetcodeBasis_Debug CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_24.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LeetcodeBasis.dir

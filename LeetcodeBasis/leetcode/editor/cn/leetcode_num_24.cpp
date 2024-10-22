@@ -90,6 +90,7 @@ namespace solution24{
 using namespace solution24;
 int main() {
     Solution solution = Solution();
+    solution.swapPairs(stringToListNode("[1,2,3,4]"));
 
     return 0;
 }

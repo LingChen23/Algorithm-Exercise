@@ -1,7 +1,10 @@
 # ninja log v5
-1	1488	7512815030514058	build.ninja	c33c19b22d206050
 0	2023	7511993716821161	CMakeFiles/LeetcodeBasis.dir/main.cpp.obj	9d499f78431576be
+0	753	7513026739312508	build.ninja	c33c19b22d206050
+0	1020	7512815041921920	CMakeFiles/LeetcodeBasis.dir/26.删除有序数组中的重复项.cpp.obj	47669809723e1877
 4	1044	7511993897964713	CMakeFiles/LeetcodeBasis.dir/1.删除有序数组中的重复项.cpp.obj	a0f0d836be08dcdc
 2032	3058	7511993727106279	LeetcodeBasis.exe	7220362a890b5261
-0	753	7512815030514058	build.ninja	c33c19b22d206050
-0	1020	7512815041921920	CMakeFiles/LeetcodeBasis.dir/26.删除有序数组中的重复项.cpp.obj	47669809723e1877
+0	2036	7513026857330788	CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_24.cpp.obj	5566dccb96a5ff82
+2042	2445	7513026861372832	LeetcodeBasis.exe	2b01a1e241b92a37
+4	2025	7513028401676833	CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_24.cpp.obj	5566dccb96a5ff82
+2026	2379	7513028405180206	LeetcodeBasis.exe	2b01a1e241b92a37
