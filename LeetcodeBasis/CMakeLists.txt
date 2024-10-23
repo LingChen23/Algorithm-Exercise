@@ -8,3 +8,4 @@ add_executable(LeetcodeBasis
         leetcode/editor/cn/leetcode_num_160.cpp)
 
 add_executable(leetcode_num_203 leetcode/editor/cn/leetcode_num_203.cpp)
+add_executable(leetcode_num_19 leetcode/editor/cn/leetcode_num_19.cpp)
