@@ -55,6 +55,18 @@ build CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_24.cpp.obj: C
   OBJECT_DIR = CMakeFiles\LeetcodeBasis.dir
   OBJECT_FILE_DIR = CMakeFiles\LeetcodeBasis.dir\leetcode\editor\cn
 
+build CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_LCP_33.cpp.obj: CXX_COMPILER__LeetcodeBasis_unscanned_Debug D$:/Project/AlgorithmExercise/LeetcodeBasis/leetcode/editor/cn/leetcode_num_LCP$ 33.cpp || cmake_object_order_depends_target_LeetcodeBasis
+  DEP_FILE = CMakeFiles\LeetcodeBasis.dir\leetcode\editor\cn\leetcode_num_LCP_33.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LeetcodeBasis.dir
+  OBJECT_FILE_DIR = CMakeFiles\LeetcodeBasis.dir\leetcode\editor\cn
+
+build CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_160.cpp.obj: CXX_COMPILER__LeetcodeBasis_unscanned_Debug D$:/Project/AlgorithmExercise/LeetcodeBasis/leetcode/editor/cn/leetcode_num_160.cpp || cmake_object_order_depends_target_LeetcodeBasis
+  DEP_FILE = CMakeFiles\LeetcodeBasis.dir\leetcode\editor\cn\leetcode_num_160.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LeetcodeBasis.dir
+  OBJECT_FILE_DIR = CMakeFiles\LeetcodeBasis.dir\leetcode\editor\cn
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LeetcodeBasis
@@ -63,7 +75,7 @@ build CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_24.cpp.obj: C
 #############################################
 # Link the executable LeetcodeBasis.exe
 
-build LeetcodeBasis.exe: CXX_EXECUTABLE_LINKER__LeetcodeBasis_Debug CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_24.cpp.obj
+build LeetcodeBasis.exe: CXX_EXECUTABLE_LINKER__LeetcodeBasis_Debug CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_24.cpp.obj CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_LCP_33.cpp.obj CMakeFiles/LeetcodeBasis.dir/leetcode/editor/cn/leetcode_num_160.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LeetcodeBasis.dir
