@@ -103,7 +103,7 @@ public:
 
             left->next = left->next->next;
 
-            return head;
+            return dummyhead->next;
         }
 
     };
@@ -117,7 +117,7 @@ public:
 using namespace solution19;
 int main() {
     Solution solution = Solution();
-    solution.removeNthFromEnd(stringToListNode("[1]"),2);
+    solution.removeNthFromEnd(stringToListNode("[1]"),1);
 
     return 0;
 }
