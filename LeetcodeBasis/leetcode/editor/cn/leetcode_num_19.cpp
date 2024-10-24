@@ -103,7 +103,7 @@ public:
 
             left->next = left->next->next;
 
-            return dummyhead->next;
+            return dummyhead->next; //dummyhead的下一个结点不是head
         }
 
     };
