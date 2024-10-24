@@ -59,40 +59,37 @@ public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         ListNode* dummyhead = new ListNode(-1);
         //dummyhead->next = list1;
-
-        ListNode* first = dummyhead;
+        ListNode* cur = dummyhead;
 //
 //        while(list1 || list2){
 //            if(list2 && (!list1 || list1->val > list2->val)){
-//                first->next = list2;
-//                first = first->next;
+//                cur->next = list2;
+//                cur = cur->next;
 //                //list2->next = list1;
 //                list2 = list2->next;
 //                //mark2 = mark2->next;
 //            }else{
-//                first->next = list1;
-//                first = first->next;
+//                cur->next = list1;
+//                cur = cur->next;
 //                list1 = list1->next;
 //            }
 //        }
+//用值判断下一结点
         while(list1 && list2){
             if(list1->val > list2->val){
-                first->next = list2;
-              //  first = first->next;
-                //list2->next = list1;
+                cur->next = list2;
                 list2 = list2->next;
-                //mark2 = mark2->next;
             }else{
-                first->next = list1;
-                //first = first->next;
+                cur->next = list1;
                 list1 = list1->next;
             }
-            first = first->next;
+            cur = cur->next;
         }
+        //合并剩余不为null节点
         if(list1){
-            first->next = list1;
+            cur->next = list1;
         }else{
-            first->next = list2;
+            cur->next = list2;
         }
 
         return dummyhead->next;
