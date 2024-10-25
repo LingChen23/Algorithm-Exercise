@@ -86,6 +86,7 @@ public:
 
         return dum1->next;
          */
+
         auto oddhead = head, oddtail = oddhead;
         auto evenhead = head->next, eventail = evenhead;
 
