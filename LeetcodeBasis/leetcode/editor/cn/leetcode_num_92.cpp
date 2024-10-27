@@ -54,27 +54,59 @@ namespace solution92{
  * };
  */
 class Solution {
+private:
+    ListNode* successor;
 public:
+    ListNode* reverseN(ListNode* head, int n){
+        //ListNode* successor;
+        if(n == 1){
+            successor = head->next;
+            return head;
+        }
+
+        ListNode* last = reverseN(head->next, n-1);
+        head->next->next = head;
+        head->next = successor;
+
+        return last;
+    }
     ListNode* reverseBetween(ListNode* head, int left, int right) {
+        if(left == 1){
+            return reverseN(head, right);
+        }
+        head->next = reverseBetween(head->next, left - 1, right - 1);
+        return head;
+        /*
+        if(right == left){
+            return head;
+        }
+        ListNode* dum = new ListNode(-1);
+        dum->next = head;
+        ListNode* pre = dum;
+        while (--left && --right){
+            pre = pre->next;
+            head = head->next;
+        }
+        ListNode* last = reverseN(head, right);
+        pre->next = last;
+        return dum->next;
+         */
+        /*
         int l = left;
-      //  int r = right;
         if(!head || !head->next)
             return head;
         ListNode* dum = new ListNode(-1);
         dum->next = head;
         ListNode* pre = dum;
         ListNode* cur = head;
-  //      ListNode* nex =
         while(--l){
             pre = pre->next;
             cur = cur->next;
         }
-       // pre->next = nullptr;
+
         ListNode* mark = cur;
         while(--right - left + 2){
-            //cur->next = cur->next->next;
             ListNode* nex = cur->next;
-           // ListNode* pren = pre->next;
             cur->next = pre->next;
             pre->next = cur;
 
@@ -83,6 +115,7 @@ public:
         if(mark != cur)
         mark->next = cur;
         return dum->next;
+         */
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
@@ -92,7 +125,7 @@ public:
 using namespace solution92;
 int main() {
     Solution solution = Solution();
-    solution.reverseBetween(stringToListNode("[1,2,3,4,5]"),2,4);
+    solution.reverseBetween(stringToListNode("[3,5]"),2,2);
 
     return 0;
 }
