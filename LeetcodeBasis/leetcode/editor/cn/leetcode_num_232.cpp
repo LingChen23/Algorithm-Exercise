@@ -74,9 +74,7 @@ private:
     stack<int> stackIn;
     stack<int> stackOut;
 public:
-    MyQueue() {
-
-    }
+    MyQueue() {}
     
     void push(int x) {
         stackIn.push(x);
@@ -91,6 +89,7 @@ public:
         }
         int result = stackOut.top();
         stackOut.pop();
+
         return result;
     }
     
@@ -104,6 +103,7 @@ public:
     bool empty() {
         if(stackIn.empty() && stackOut.empty())
             return true;
+
         return false;
     }
 };
