@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/一元二次方程.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/一元二次方程.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/leetcode/一元二次方程.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/leetcode/一元二次方程.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/三角形.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/成绩.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/闰年.cpp" charset="GBK" />
