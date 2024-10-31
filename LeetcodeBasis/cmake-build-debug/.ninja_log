@@ -1,5 +1,5 @@
 # ninja log v5
-0	753	7519138800462153	build.ninja	c33c19b22d206050
+0	753	7520526763526410	build.ninja	c33c19b22d206050
 2026	2379	7513028405180206	LeetcodeBasis.exe	2b01a1e241b92a37
 7	3407	7513788012422450	CMakeFiles/leetcode_num_203.dir/leetcode/editor/cn/leetcode_num_203.cpp.obj	99363643380ee6b0
 2359	2787	7519097615371316	leetcode_num_977.exe	bd685a6c19824c07
@@ -17,3 +17,11 @@
 3674	4282	7518222793503638	leetcode_num_27.exe	69373397fa0870f2
 1	2358	7519097611113596	CMakeFiles/leetcode_num_977.dir/leetcode/editor/cn/leetcode_num_977.cpp.obj	9c0fa53bbc11de21
 2066	2419	7519127963105444	leetcode_num_209.exe	2a0483d0ba8b6a4a
+0	3185	7520530635738107	CMakeFiles/leetcode_num_59.dir/leetcode/editor/cn/leetcode_num_59.cpp.obj	212194ebdf3bd421
+3186	4298	7520530646828465	leetcode_num_59.exe	88cf46d8a361fb44
+3	2301	7520531168663423	CMakeFiles/leetcode_num_59.dir/leetcode/editor/cn/leetcode_num_59.cpp.obj	212194ebdf3bd421
+2302	2715	7520531172778191	leetcode_num_59.exe	88cf46d8a361fb44
+4	2233	7520534648287594	CMakeFiles/leetcode_num_59.dir/leetcode/editor/cn/leetcode_num_59.cpp.obj	212194ebdf3bd421
+2234	2596	7520534651918330	leetcode_num_59.exe	88cf46d8a361fb44
+3	2192	7520538315372449	CMakeFiles/leetcode_num_59.dir/leetcode/editor/cn/leetcode_num_59.cpp.obj	212194ebdf3bd421
+2193	2570	7520538319114680	leetcode_num_59.exe	88cf46d8a361fb44
