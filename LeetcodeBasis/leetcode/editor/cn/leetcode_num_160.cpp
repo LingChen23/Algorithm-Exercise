@@ -99,10 +99,10 @@ namespace solution160{
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * struct LinkedNode {
  *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
+ *     LinkedNode *next;
+ *     LinkedNode(int x) : val(x), next(NULL) {}
  * };
  */
 class Solution {

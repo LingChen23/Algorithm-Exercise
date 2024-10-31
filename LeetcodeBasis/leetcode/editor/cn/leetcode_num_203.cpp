@@ -46,22 +46,22 @@ namespace solution203{
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * struct LinkedNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *     LinkedNode *next;
+ *     LinkedNode() : val(0), next(nullptr) {}
+ *     LinkedNode(int x) : val(x), next(nullptr) {}
+ *     LinkedNode(int x, LinkedNode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
         /*
-        ListNode* dummyhead = new ListNode(-1);
+        LinkedNode* dummyhead = new LinkedNode(-1);
         dummyhead->next = head;
-        ListNode* list = dummyhead;
-        ListNode* mark = head;
+        LinkedNode* list = dummyhead;
+        LinkedNode* mark = head;
         while(mark != nullptr){
             if(mark->val == val){   //要删除元素 list下一个节点跳过该元素
                 list->next = mark->next;

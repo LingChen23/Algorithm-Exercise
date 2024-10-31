@@ -45,12 +45,12 @@ namespace solution92{
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * struct LinkedNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *     LinkedNode *next;
+ *     LinkedNode() : val(0), next(nullptr) {}
+ *     LinkedNode(int x) : val(x), next(nullptr) {}
+ *     LinkedNode(int x, LinkedNode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
@@ -58,7 +58,7 @@ private:
     ListNode* successor;
 public:
     ListNode* reverseN(ListNode* head, int n){
-        //ListNode* successor;
+        //LinkedNode* successor;
         if(n == 1){
             successor = head->next;
             return head;
@@ -80,14 +80,14 @@ public:
         if(right == left){
             return head;
         }
-        ListNode* dum = new ListNode(-1);
+        LinkedNode* dum = new LinkedNode(-1);
         dum->next = head;
-        ListNode* pre = dum;
+        LinkedNode* pre = dum;
         while (--left && --right){
             pre = pre->next;
             head = head->next;
         }
-        ListNode* last = reverseN(head, right);
+        LinkedNode* last = reverseN(head, right);
         pre->next = last;
         return dum->next;
          */
@@ -95,18 +95,18 @@ public:
         int l = left;
         if(!head || !head->next)
             return head;
-        ListNode* dum = new ListNode(-1);
+        LinkedNode* dum = new LinkedNode(-1);
         dum->next = head;
-        ListNode* pre = dum;
-        ListNode* cur = head;
+        LinkedNode* pre = dum;
+        LinkedNode* cur = head;
         while(--l){
             pre = pre->next;
             cur = cur->next;
         }
 
-        ListNode* mark = cur;
+        LinkedNode* mark = cur;
         while(--right - left + 2){
-            ListNode* nex = cur->next;
+            LinkedNode* nex = cur->next;
             cur->next = pre->next;
             pre->next = cur;
 

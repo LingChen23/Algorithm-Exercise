@@ -51,12 +51,12 @@ namespace solution19{
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * struct LinkedNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *     LinkedNode *next;
+ *     LinkedNode() : val(0), next(nullptr) {}
+ *     LinkedNode(int x) : val(x), next(nullptr) {}
+ *     LinkedNode(int x, LinkedNode *next) : val(x), next(next) {}
  * };
  */
 
@@ -64,12 +64,12 @@ namespace solution19{
  * 第一种方法
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
+    LinkedNode* removeNthFromEnd(LinkedNode* head, int n) {
 
         int count = 0;
-        ListNode* dummyhead = new ListNode(-1);
+        LinkedNode* dummyhead = new LinkedNode(-1);
         dummyhead->next = head;
-        ListNode* list = dummyhead;
+        LinkedNode* list = dummyhead;
         while(list->next != nullptr){
             count++;
             list = list->next;

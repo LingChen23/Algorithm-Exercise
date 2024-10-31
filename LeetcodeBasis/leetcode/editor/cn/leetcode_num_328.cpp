@@ -47,12 +47,12 @@ namespace solution328{
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * struct LinkedNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *     LinkedNode *next;
+ *     LinkedNode() : val(0), next(nullptr) {}
+ *     LinkedNode(int x) : val(x), next(nullptr) {}
+ *     LinkedNode(int x, LinkedNode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
@@ -61,12 +61,12 @@ public:
         if(!head || !head->next) return head;
         /*
         int count = 2;
-        ListNode* dum1 = new ListNode(-1);
-        ListNode* dum2 = new ListNode(-1);
+        LinkedNode* dum1 = new LinkedNode(-1);
+        LinkedNode* dum2 = new LinkedNode(-1);
         dum1->next = head;
         dum2->next = head->next;
-        ListNode* list1 = dum1->next;
-        ListNode* list2 = dum2->next;
+        LinkedNode* list1 = dum1->next;
+        LinkedNode* list2 = dum2->next;
         head = head->next->next;
         // dum2->next = list2;
         while(head){

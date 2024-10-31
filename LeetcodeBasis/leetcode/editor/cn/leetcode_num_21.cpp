@@ -46,12 +46,12 @@ namespace solution21{
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * struct LinkedNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *     LinkedNode *next;
+ *     LinkedNode() : val(0), next(nullptr) {}
+ *     LinkedNode(int x) : val(x), next(nullptr) {}
+ *     LinkedNode(int x, LinkedNode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
