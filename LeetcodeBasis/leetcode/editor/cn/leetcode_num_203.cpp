@@ -57,6 +57,7 @@ namespace solution203{
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
+        /*
         ListNode* dummyhead = new ListNode(-1);
         dummyhead->next = head;
         ListNode* list = dummyhead;
@@ -72,6 +73,19 @@ public:
         }
 
         return dummyhead->next;
+         */
+
+        ListNode* dum = new ListNode(-1);
+        dum->next = head;
+        ListNode* cur = dum;
+        while(cur->next != nullptr){
+            if(cur->next->val == val){
+                cur->next = cur->next->next;
+            }else
+                cur = cur->next;
+        }
+
+        return dum->next;
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
