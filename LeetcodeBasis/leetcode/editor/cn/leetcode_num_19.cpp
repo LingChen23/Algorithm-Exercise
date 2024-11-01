@@ -88,6 +88,7 @@ public:
     class Solution {
     public:
         ListNode* removeNthFromEnd(ListNode* head, int n) {
+            /*
             ListNode* dummyhead = new ListNode(-1);
             dummyhead->next = head;
             ListNode* left = dummyhead;
@@ -104,6 +105,25 @@ public:
             left->next = left->next->next;
 
             return dummyhead->next; //dummyhead的下一个结点不是head
+             */
+
+            ListNode* dum = new ListNode(-1);
+            dum->next = head;
+            ListNode* fast = dum;
+            ListNode* slow = dum;
+
+            while(n-- && fast){
+                fast = fast->next;
+            }
+
+            while(fast->next){
+                fast = fast->next;
+                slow = slow->next;
+            }
+
+            slow->next = slow->next->next;
+
+            return dum->next;
         }
 
     };
