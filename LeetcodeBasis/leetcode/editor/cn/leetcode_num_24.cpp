@@ -56,6 +56,7 @@ namespace solution24{
     class Solution {
     public:
         ListNode* swapPairs(ListNode* head) {
+            /*
             if(!head || !head->next) return head;
             ListNode* dummyhead = new ListNode(-1);
             dummyhead->next = head;
@@ -81,6 +82,25 @@ namespace solution24{
             }
 
             return dummyhead->next;
+            */
+
+//            if(!head || !head->next){
+//                return head;
+//            }
+
+            ListNode* dum = new ListNode(-1);
+            dum->next = head;
+            ListNode* cur = dum;
+            while (cur->next && cur->next->next){
+                ListNode* temp1 = cur->next;
+                ListNode* temp2 = cur->next->next->next;
+                cur->next = cur->next->next;    //1
+                cur->next->next = temp1;
+                temp1->next = temp2;
+                cur = temp1;
+            }
+
+            return dum->next;
         }
     };
 //leetcode submit region end(Prohibit modification and deletion)

@@ -4,7 +4,6 @@ project(LeetcodeBasis)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(LeetcodeBasis
-        leetcode/editor/cn/leetcode_num_24.cpp
         leetcode/editor/cn/leetcode_num_160.cpp)
 
 add_executable(leetcode_num_203 leetcode/editor/cn/leetcode_num_203.cpp)
@@ -21,3 +20,4 @@ add_executable(leetcode_num_242 leetcode/editor/cn/leetcode_num_242.cpp)
 add_executable(leetcode_num_349 leetcode/editor/cn/leetcode_num_349.cpp)
 add_executable(leetcode_num_59 leetcode/editor/cn/leetcode_num_59.cpp)
 add_executable(leetcode_num_707 leetcode/editor/cn/leetcode_num_707.cpp)
+add_executable(leetcode_num_24 leetcode/editor/cn/leetcode_num_24.cpp)
