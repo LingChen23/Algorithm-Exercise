@@ -57,6 +57,7 @@ namespace solution1{
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
+        /*
         std::unordered_map <int,int> map;
         for(int i = 0; i < nums.size(); i++) {
             // 遍历当前元素，并在map中寻找是否有匹配的key
@@ -66,6 +67,18 @@ public:
             // 如果没找到匹配对，就把访问过的元素和下标加入到map中
             map.insert(pair<int, int>(nums[i], i));
         }
+        return {};
+         */
+
+        unordered_map<int, int> unorderedMap;
+        for(int i = 0; i < nums.size(); i++){
+            if(unorderedMap.find(target - nums[i]) != unorderedMap.end()){
+                return {unorderedMap[target - nums[i]], i};
+            } else{
+               unorderedMap.insert(pair<int, int>(nums[i], i));
+            }
+        }
+
         return {};
     }
 };
