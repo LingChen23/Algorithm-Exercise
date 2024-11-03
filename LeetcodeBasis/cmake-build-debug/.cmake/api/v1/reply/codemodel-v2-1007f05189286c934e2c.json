@@ -33,7 +33,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -66,7 +67,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -91,6 +93,13 @@
 					"id" : "leetcode_num_142::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-leetcode_num_142-Debug-86672012dc35faa4863a.json",
 					"name" : "leetcode_num_142",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode_num_144::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode_num_144-Debug-18ebbe094809401797c8.json",
+					"name" : "leetcode_num_144",
 					"projectIndex" : 0
 				},
 				{
