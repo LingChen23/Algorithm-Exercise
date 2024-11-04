@@ -86,9 +86,31 @@ public:
         vec.push_back(cur->val);
     }
     vector<int> postorderTraversal(TreeNode* root) {
-        vector<int> result;
-        travelsal(root, result);
+//        vector<int> result;
+//        travelsal(root, result);
+//
+//        return result;
 
+        vector<int> result;
+        stack<TreeNode*> st;
+
+        if(!root){
+            return result;
+        }
+
+        st.push(root);
+
+        while(!st.empty()){
+            TreeNode* cur = st.top();
+            st.pop();
+            if(cur){
+                result.push_back(cur->val);
+                st.push(cur->left);
+                st.push(cur->right);
+            }
+        }
+
+        reverse(result.begin(), result.end());
         return result;
     }
 };

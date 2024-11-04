@@ -89,8 +89,28 @@ public:
         travelsal(cur->right, vec);
     }
     vector<int> preorderTraversal(TreeNode* root) {
+//        vector<int> result;
+//        travelsal(root, result);
+//
+//        return result;
+
         vector<int> result;
-        travelsal(root, result);
+        if(!root){
+            return result;
+        }
+
+        stack<TreeNode*> st;
+        st.push(root);
+        //st.pop();
+        while (!st.empty()){
+            TreeNode* cur = st.top();
+            st.pop();
+            if(cur){
+                result.push_back(cur->val);
+                st.push(cur->right);
+                st.push(cur->left);
+            }
+        }
 
         return result;
     }
@@ -102,6 +122,7 @@ public:
 using namespace solution144;
 int main() {
     Solution solution = Solution();
+    solution.preorderTraversal(stringToTreeNode("[1,null,2,3]"));
 
     return 0;
 }
