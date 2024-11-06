@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/leetcode_num_1047.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/leetcode_num_1047.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1047" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/leetcode_num_1047.cpp" />
+              <option name="titleSlug" value="remove-all-adjacent-duplicates-in-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/leetcode_num_109.cpp">
           <value>
             <LeetcodeEditor>
