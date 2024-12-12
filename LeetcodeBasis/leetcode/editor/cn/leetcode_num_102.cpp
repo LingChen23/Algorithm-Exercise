@@ -57,11 +57,29 @@ namespace solution102{
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
-        queue<int> qu;
+        queue<TreeNode*> qu;
         vector<vector<int>> result;
-        vector<int> res;
+        if(root)
+            qu.push(root);
 
+        while(!qu.empty()){
+            auto size = qu.size();
+            vector<int> res;
+            while(size--){
+                TreeNode* cur = qu.front();
+                qu.pop();
+                res.push_back(cur->val);
+                if(cur->left){
+                    qu.push(cur->left);
+                }
+                if(cur->right){
+                    qu.push(cur->right);
+                }
+            }
+            result.push_back(res);
+        }
 
+        return result;
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
