@@ -1195,6 +1195,105 @@ build leetcode_num_226.exe: CXX_EXECUTABLE_LINKER__leetcode_num_226_Debug CMakeF
   TARGET_IMPLIB = libleetcode_num_226.dll.a
   TARGET_PDB = leetcode_num_226.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode_num_101
+
+
+#############################################
+# Order-only phony target for leetcode_num_101
+
+build cmake_object_order_depends_target_leetcode_num_101: phony || CMakeFiles/leetcode_num_101.dir
+
+build CMakeFiles/leetcode_num_101.dir/leetcode/editor/cn/leetcode_num_101.cpp.obj: CXX_COMPILER__leetcode_num_101_unscanned_Debug D$:/Project/AlgorithmExercise/LeetcodeBasis/leetcode/editor/cn/leetcode_num_101.cpp || cmake_object_order_depends_target_leetcode_num_101
+  DEP_FILE = CMakeFiles\leetcode_num_101.dir\leetcode\editor\cn\leetcode_num_101.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\leetcode_num_101.dir
+  OBJECT_FILE_DIR = CMakeFiles\leetcode_num_101.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode_num_101
+
+
+#############################################
+# Link the executable leetcode_num_101.exe
+
+build leetcode_num_101.exe: CXX_EXECUTABLE_LINKER__leetcode_num_101_Debug CMakeFiles/leetcode_num_101.dir/leetcode/editor/cn/leetcode_num_101.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\leetcode_num_101.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_num_101.exe
+  TARGET_IMPLIB = libleetcode_num_101.dll.a
+  TARGET_PDB = leetcode_num_101.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode_num_104
+
+
+#############################################
+# Order-only phony target for leetcode_num_104
+
+build cmake_object_order_depends_target_leetcode_num_104: phony || CMakeFiles/leetcode_num_104.dir
+
+build CMakeFiles/leetcode_num_104.dir/leetcode/editor/cn/leetcode_num_104.cpp.obj: CXX_COMPILER__leetcode_num_104_unscanned_Debug D$:/Project/AlgorithmExercise/LeetcodeBasis/leetcode/editor/cn/leetcode_num_104.cpp || cmake_object_order_depends_target_leetcode_num_104
+  DEP_FILE = CMakeFiles\leetcode_num_104.dir\leetcode\editor\cn\leetcode_num_104.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\leetcode_num_104.dir
+  OBJECT_FILE_DIR = CMakeFiles\leetcode_num_104.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode_num_104
+
+
+#############################################
+# Link the executable leetcode_num_104.exe
+
+build leetcode_num_104.exe: CXX_EXECUTABLE_LINKER__leetcode_num_104_Debug CMakeFiles/leetcode_num_104.dir/leetcode/editor/cn/leetcode_num_104.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\leetcode_num_104.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_num_104.exe
+  TARGET_IMPLIB = libleetcode_num_104.dll.a
+  TARGET_PDB = leetcode_num_104.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode_num_111
+
+
+#############################################
+# Order-only phony target for leetcode_num_111
+
+build cmake_object_order_depends_target_leetcode_num_111: phony || CMakeFiles/leetcode_num_111.dir
+
+build CMakeFiles/leetcode_num_111.dir/leetcode/editor/cn/leetcode_num_111.cpp.obj: CXX_COMPILER__leetcode_num_111_unscanned_Debug D$:/Project/AlgorithmExercise/LeetcodeBasis/leetcode/editor/cn/leetcode_num_111.cpp || cmake_object_order_depends_target_leetcode_num_111
+  DEP_FILE = CMakeFiles\leetcode_num_111.dir\leetcode\editor\cn\leetcode_num_111.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\leetcode_num_111.dir
+  OBJECT_FILE_DIR = CMakeFiles\leetcode_num_111.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode_num_111
+
+
+#############################################
+# Link the executable leetcode_num_111.exe
+
+build leetcode_num_111.exe: CXX_EXECUTABLE_LINKER__leetcode_num_111_Debug CMakeFiles/leetcode_num_111.dir/leetcode/editor/cn/leetcode_num_111.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\leetcode_num_111.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode_num_111.exe
+  TARGET_IMPLIB = libleetcode_num_111.dll.a
+  TARGET_PDB = leetcode_num_111.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1225,9 +1324,15 @@ build LeetcodeBasis: phony LeetcodeBasis.exe
 
 build leetcode_num_1: phony leetcode_num_1.exe
 
+build leetcode_num_101: phony leetcode_num_101.exe
+
 build leetcode_num_102: phony leetcode_num_102.exe
 
+build leetcode_num_104: phony leetcode_num_104.exe
+
 build leetcode_num_1047: phony leetcode_num_1047.exe
+
+build leetcode_num_111: phony leetcode_num_111.exe
 
 build leetcode_num_142: phony leetcode_num_142.exe
 
@@ -1299,7 +1404,7 @@ build leetcode_num_977: phony leetcode_num_977.exe
 #############################################
 # Folder: D:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-debug
 
-build all: phony LeetcodeBasis.exe leetcode_num_203.exe leetcode_num_19.exe leetcode_num_21.exe leetcode_num_328.exe leetcode_num_92.exe leetcode_num_704.exe leetcode_num_232.exe leetcode_num_27.exe leetcode_num_977.exe leetcode_num_209.exe leetcode_num_242.exe leetcode_num_349.exe leetcode_num_59.exe leetcode_num_707.exe leetcode_num_24.exe leetcode_num_1.exe leetcode_num_142.exe leetcode_num_454.exe leetcode_num_144.exe leetcode_num_145.exe leetcode_num_94.exe leetcode_num_15.exe leetcode_num_18.exe leetcode_num_344.exe leetcode_num_459.exe leetcode_num_151.exe leetcode_num_225.exe leetcode_num_20.exe leetcode_num_1047.exe leetcode_num_150.exe leetcode_num_239.exe leetcode_num_347.exe leetcode_num_102.exe leetcode_num_226.exe
+build all: phony LeetcodeBasis.exe leetcode_num_203.exe leetcode_num_19.exe leetcode_num_21.exe leetcode_num_328.exe leetcode_num_92.exe leetcode_num_704.exe leetcode_num_232.exe leetcode_num_27.exe leetcode_num_977.exe leetcode_num_209.exe leetcode_num_242.exe leetcode_num_349.exe leetcode_num_59.exe leetcode_num_707.exe leetcode_num_24.exe leetcode_num_1.exe leetcode_num_142.exe leetcode_num_454.exe leetcode_num_144.exe leetcode_num_145.exe leetcode_num_94.exe leetcode_num_15.exe leetcode_num_18.exe leetcode_num_344.exe leetcode_num_459.exe leetcode_num_151.exe leetcode_num_225.exe leetcode_num_20.exe leetcode_num_1047.exe leetcode_num_150.exe leetcode_num_239.exe leetcode_num_347.exe leetcode_num_102.exe leetcode_num_226.exe leetcode_num_101.exe leetcode_num_104.exe leetcode_num_111.exe
 
 # =============================================================================
 # Built-in targets
