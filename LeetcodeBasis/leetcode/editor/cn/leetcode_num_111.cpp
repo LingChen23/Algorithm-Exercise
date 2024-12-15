@@ -61,6 +61,11 @@ public:
         int leftHeight = minDepth(root->left);
         int rightHeight = minDepth(root->right);
 
+        if(leftHeight == 0 && rightHeight != 0){
+            return 1 + rightHeight;
+        }else if(rightHeight == 0 && leftHeight != 0){
+            return 1 + leftHeight;
+        }
         return 1 + min(leftHeight, rightHeight);
     }
 };
