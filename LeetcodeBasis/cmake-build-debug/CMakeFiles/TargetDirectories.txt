@@ -36,5 +36,6 @@ D:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-debug/CMakeFiles/leetcode
 D:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-debug/CMakeFiles/leetcode_num_101.dir
 D:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-debug/CMakeFiles/leetcode_num_104.dir
 D:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-debug/CMakeFiles/leetcode_num_111.dir
+D:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-debug/CMakeFiles/leetcode_num_222.dir
 D:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Project/AlgorithmExercise/LeetcodeBasis/cmake-build-debug/CMakeFiles/rebuild_cache.dir
